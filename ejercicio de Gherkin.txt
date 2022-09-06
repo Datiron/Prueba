@@ -1,0 +1,29 @@
+Sanguchón Campesino
+
+Feature:Inclusion de una pasarela de pago
+	COMO dueño
+	QUIERO que se pueda comprar en el mismo momento
+	PARA aumentar las ventas
+
+Scenario: Hacer pasarela de pagos
+	Given estoy en la pagina web
+	When hago click al producto
+	AND añado al carrito 
+	Then la pagina hace la transaccion 
+
+
+
+
+
+
+
+Feature: Añadir un boton de reservacion
+	COMO gerente
+	QUIERO que se visualice en la parte superior de la pagina
+	PARA que los clientes puedan apartar su mesa 
+
+Scenario: Hacer un boton de reservacion
+	Given soy un cliente
+	When visualizo el boton
+	AND le doy click 
+	Then me deja elegir la sucursal
