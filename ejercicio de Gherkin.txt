@@ -27,3 +27,8 @@ Scenario: Hacer un boton de reservacion
 	When visualizo el boton
 	AND le doy click 
 	Then me deja elegir la sucursal
+
+
+
+
+cambio
